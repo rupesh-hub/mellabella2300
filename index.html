@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Page Layout</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .active {
+        color: #b30303 !important;
+        font-weight: 600 !important;
+      }
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+
+  <body class="flex flex-col min-h-screen font-sans">
+    <div id="header-placeholder"></div>
+
+    <main class="flex-1 bg-white">
+      <section id="home"></section>
+      <section id="menu" class="bg-white"></section>
+      <section id="contact" class="bg-black text-white"></section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
